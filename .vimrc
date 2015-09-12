@@ -45,6 +45,7 @@ nnoremap <C-y> "+y
 vnoremap <C-y> "+y
 nnoremap <C-p> "+gP
 vnoremap <C-p> "+gP
+nnoremap <silent> <F2> :TlistToggle<CR>
 set grepprg=grep\ -nH\ $*
 "Put spaces instead of tabs
 set tabstop=2
