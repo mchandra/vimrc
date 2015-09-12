@@ -23,6 +23,10 @@ call SetupVAM()
 
 VAMActivate bufexplorer.zip
 VAMActivate taglist
+VAMActivate FuzzyFinder
+VAMActivate The_NERD_tree
+VAMActivate a
+VAMActivate align
 
 set bs=2
 set number
