@@ -30,6 +30,9 @@ VAMActivate YouCompleteMe
 VAMActivate fugitive
 VAMActivate indentLine
 
+"Turn off indent lines by default. Use :IndentLinesToggle to turn on
+let g:indentLine_enabled = 0
+
 "Show vim-airline even without a split
 set laststatus=2
 
