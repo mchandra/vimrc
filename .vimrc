@@ -1,6 +1,5 @@
 set nocompatible | filetype indent plugin on | syn on
 
-
 fun! SetupVAM()
   let c = get(g:, 'vim_addon_manager', {})
   let g:vim_addon_manager = c
@@ -26,6 +25,8 @@ VAMActivate The_NERD_tree
 VAMActivate a
 VAMActivate align
 VAMActivate vim-airline
+VAMActivate UltiSnips
+VAMActivate YouCompleteMe
 
 "Show vim-airline even without a split
 set laststatus=2
