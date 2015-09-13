@@ -28,6 +28,7 @@ VAMActivate vim-airline
 VAMActivate UltiSnips
 VAMActivate YouCompleteMe
 VAMActivate fugitive
+VAMActivate indentLine
 
 "Show vim-airline even without a split
 set laststatus=2
