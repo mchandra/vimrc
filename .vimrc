@@ -27,6 +27,7 @@ VAMActivate align
 VAMActivate vim-airline
 VAMActivate UltiSnips
 VAMActivate YouCompleteMe
+VAMActivate fugitive
 
 "Show vim-airline even without a split
 set laststatus=2
