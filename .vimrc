@@ -71,3 +71,4 @@ set autoindent
 
 "Display vim-airline's tabline
 let g:airline#extensions#tabline#enabled = 1
+let g:ycm_global_ycm_extra_conf = '~/.vim/vim-addons/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
