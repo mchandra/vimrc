@@ -63,10 +63,8 @@ nnoremap <silent> <F2> :TlistToggle<CR>
 set grepprg=grep\ -nH\ $*
 
 "Put spaces instead of tabs
-set tabstop=2
-set shiftwidth=2 
-set expandtab
-set softtabstop=2 ""This option lets you delete 2 spaces with one bs keystroke.
+set tabstop=4 shiftwidth=4 expandtab
+"set softtabstop=2 ""This option lets you delete 2 spaces with one bs keystroke.
 set autoindent
 
 "Display vim-airline's tabline
